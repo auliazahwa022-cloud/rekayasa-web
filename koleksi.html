@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koleksi Buku | PustakaKu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">📚 PustakaKu</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="profil.html">Profil</a>
+      <a href="koleksi.html" class="active">Koleksi Buku</a>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <p class="eyebrow">JELAJAHI BACAAN</p>
+    <h1>Koleksi Buku</h1>
+    <p>Temukan buku sesuai minat dan kebutuhan belajarmu.</p>
+
+    <input
+      type="search"
+      id="searchBook"
+      class="search-input"
+      placeholder="Cari judul buku atau penulis..."
+      aria-label="Cari buku"
+    >
+
+    <div class="book-grid" id="bookGrid">
+      <article class="book-card">
+        <div class="book-cover cover-one">🪴</div>
+        <h3>Filosofi Teras</h3>
+        <p>Henry Manampiring</p>
+        <span class="category">Pengembangan Diri</span>
+      </article>
+
+      <article class="book-card">
+        <div class="book-cover cover-two">💻</div>
+        <h3>Belajar Teknologi</h3>
+        <p>Koleksi Pendidikan</p>
+        <span class="category">Teknologi</span>
+      </article>
+
+      <article class="book-card">
+        <div class="book-cover cover-three">🌌</div>
+        <h3>Petualangan Ilmu</h3>
+        <p>Koleksi Pengetahuan</p>
+        <span class="category">Pendidikan</span>
+      </article>
+
+      <article class="book-card">
+        <div class="book-cover" style="background:#f1dfce">🎨</div>
+        <h3>Seni dan Kreativitas</h3>
+        <p>Koleksi Seni</p>
+        <span class="category">Seni</span>
+      </article>
+
+      <article class="book-card">
+        <div class="book-cover" style="background:#dce8d5">🌱</div>
+        <h3>Belajar Lingkungan</h3>
+        <p>Koleksi Pengetahuan</p>
+        <span class="category">Sains</span>
+      </article>
+
+      <article class="book-card">
+        <div class="book-cover" style="background:#e4def3">🚀</div>
+        <h3>Mengenal Sains</h3>
+        <p>Koleksi Pendidikan</p>
+        <span class="category">Sains</span>
+      </article>
+    </div>
+
+    <p id="emptyMessage" hidden>
+      Buku tidak ditemukan. Coba kata kunci lain.
+    </p>
+  </main>
+
+  <footer>
+    <p>© 2026 PustakaKu — Perpustakaan Digital Created By: Zahwa Putri Aulia</p>
+  </footer>
+</body>
+</html>
